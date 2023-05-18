@@ -1,0 +1,48 @@
+/* Super Plak Css */
+body {
+    text-align: center;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.ordernow {
+    padding-left: 7px;
+}
+/*sticky header position*/
+.navfloat{
+    float: right;
+    position: absolute;
+    right: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+body {
+  min-height: 1200px;
+}
+nav {
+  background: #white;
+  min-height: 85px;
+    z-index: 999;
+}
+
+.superlogoclass{
+    height: 100px;
+    width: 100;
+    padding: 18px;
+}
+
+.cartimg {
+    height: 40px;
+    width: inherit;
+    padding-left: 3.5px;
+}
